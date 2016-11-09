@@ -5,10 +5,7 @@
     <artifactId>taotao-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.taotao</groupId>
   <artifactId>taotao-common</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
   <dependencies>
 	<!-- 时间操作组件 -->
 			<dependency>
@@ -49,6 +46,17 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-log4j12</artifactId>
+			</dependency>
+			<!-- cookie工具类的编写 ，用到的 jar包-->
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>servlet-api</artifactId>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>jsp-api</artifactId>
+				<scope>provided</scope>
 			</dependency>
   </dependencies>
   

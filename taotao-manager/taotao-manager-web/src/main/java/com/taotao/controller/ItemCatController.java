@@ -20,7 +20,7 @@ import com.taotao.service.ItemCatService;
 public class ItemCatController {
 	
 	@Autowired
-	private ItemCatService itemCatService;
+	private ItemCatService  itemCatService;
 	
 	@RequestMapping("/list")
 	@ResponseBody

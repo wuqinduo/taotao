@@ -8,4 +8,6 @@
   <artifactId>taotao-manager-pojo</artifactId>
   <description>pojo工程，</description>
   
+  <packaging>jar</packaging>
+  
 </project>
